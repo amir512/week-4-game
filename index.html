@@ -2,11 +2,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Infinity Stone Search</title>
+	<title>Infinity Stone Shuffle</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<h1 class="text">Number to Guess: <span id="number"></span></h1>
+	<div id="scoreBoard">
+		<div><h1 class="text">Number to Guess: <span id="number"></span></h1></div>
+
+		<div><h2 class="text" id="userScore">Your total score is: </h2></div>
+
+		<div class="text">
+			<h2 id="userWins">Wins: </h2>
+			<h2 id="userLosses">Losses: </h2>
+		</div>
+	</div>
 
 	<div id="rowOfStones">
 		<img class="stone" src="assets/images/powerStone_purple.jpg" alt="Power Stone"/>
@@ -17,7 +26,9 @@
 		<img class="stone" src="assets/images/timeStone_green.jpg"   alt="Time Stone"/>
 	</div>
 
-	<div><h2 class="text" id="userScore">Your total score is: </h2></div>
+	
+
+	
 
 </body>
 </html>

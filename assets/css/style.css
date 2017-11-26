@@ -6,6 +6,11 @@ html {
 	color: LightSlateGray;
 }
 
+#scoreBoard {
+	background-color: yellow;
+	width: 25%;
+}
+
 #rowOfStones {
 }
 
